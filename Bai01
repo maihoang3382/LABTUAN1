@@ -1,0 +1,10 @@
+public class main {
+    public static void main(String[] args){
+        String ten = "Mai Viet Hoang";
+        String ngaysinh = "28/02/2005";
+        String mssv = "1250080058";
+        System.out.println("Họ và tên: " + ten);
+        System.out.println("Ngày sinh: " + ngaysinh);
+        System.out.println("Mã số sinh viên: " + mssv);
+    }
+}
