@@ -1,0 +1,27 @@
+import java.util.Scanner;
+class Main {
+    public static int tinhtong(int so) {
+        int tong = 0;
+        while (so != 0) {
+            tong += so % 10;
+            so /= 10;
+        }
+        return Math.abs(tong);
+    }
+    public static int tinhtich(int so) {
+        int tich = 1;
+        while (so != 0) {
+            tich *= so % 10;
+            so /= 10;
+        }
+        return Math.abs(tich);
+    }
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Nhap so: ");
+        int so = scanner.nextInt();
+        System.out.println("tong la: " + tinhtong(so));
+        System.out.println("tich la: " + tinhtich(so));
+        scanner.close();
+    }
+}
