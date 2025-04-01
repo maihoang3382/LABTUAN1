@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Nhập năm: ");
+        int nam = scanner.nextInt();
+        boolean namnhuan = (nam % 4 == 0 && nam % 100 != 0) || (nam % 400 == 0);
+        if (namnhuan) {
+            System.out.println(nam + " là năm nhuận.");
+        } else {
+            System.out.println(nam + " không phải là năm nhuận.");
+        }scanner.close();
+    }}
