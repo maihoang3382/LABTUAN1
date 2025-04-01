@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Nhap so 1 ");
+        int s1 = scanner.nextInt();        
+        System.out.print("NaHp so 2: ");
+        int s2 = scanner.nextInt();      
+        System.out.print("Nhap so 3: ");
+        int s3 = scanner.nextInt();
+        int min = Math.min(s1, Math.min(s2,s3));
+        System.out.println("so nho nhat la: " + min);
+        scanner.close();
+    }
+}
