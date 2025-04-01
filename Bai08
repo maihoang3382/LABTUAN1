@@ -1,0 +1,17 @@
+import java.util.Scanner;
+ class main {
+    public static int sodau(int so) {
+        while (so >= 10) {
+            so /= 10;}return so;}
+    public static int soduoi(int so) {
+        return Math.abs(so % 10);
+    }
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("nhap so: ");
+        int so = scanner.nextInt();
+        System.out.println("so dau: " + sodau(so));
+        System.out.println("so duoi: " + soduoi(so));
+        scanner.close();
+    }
+}
