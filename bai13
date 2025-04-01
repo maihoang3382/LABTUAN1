@@ -1,5 +1,6 @@
+package lab1;
 import java.util.Scanner;
- class main {
+ class bai13 {
     public static int demchu(String dem) {
         String[] words = dem.trim().split("\\s+");
         return words.length;
@@ -9,5 +10,4 @@ import java.util.Scanner;
         System.out.print("Nhap chu: ");
         String dem = scanner.nextLine();
         System.out.println("so chu: " + demchu(dem));
-        scanner.close();
     }}
