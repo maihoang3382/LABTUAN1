@@ -1,0 +1,17 @@
+import java.util.Scanner;
+ class main{
+    public static int demso(int so) {
+        int dem = 0;
+        while (so != 0) {
+            dem++;
+            so /= 10;
+        }
+        return dem;}
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Nhap so: ");
+        int so = scanner.nextInt();
+        System.out.println("so co: " + demso(so)+ " chu so");
+        scanner.close();
+    }
+}
