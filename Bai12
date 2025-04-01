@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class main {
+    public static boolean sodoixung(int so) {
+        int goc = so;
+        int doixung = 0;
+        while (so!= 0) {
+            int a = so % 10;
+            doixung = doixung * 10 + a;
+            so /= 10;
+        }
+        return goc == doixung;}
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Nhap so: ");
+        int so = scanner.nextInt();
+        if (sodoixung(so)) {
+            System.out.println(so + " la so doi xung");
+        } else {
+            System.out.println(so + " khong la so doi xung");
+        }
+
+        scanner.close();}}
