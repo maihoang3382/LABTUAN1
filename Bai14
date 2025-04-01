@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class Main {
+    public static void hovaten(String hoten) {
+        String[] hovten = hoten.trim().split("\\s+");
+        String ho = hovten[0];
+        String ten = hovten[hovten.length - 1];
+        StringBuilder tendem = new StringBuilder();
+        for (int i = 1; i < hovten.length - 1; i++) {
+            tendem.append(hovten[i]).append(" ");
+        }
+        System.out.println("Ho: " + ho);
+        System.out.println("Ten dem: " + tendem.toString().trim());
+        System.out.println("Ten: " + ten);}
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Nhap ho ten ");
+        String fullName = scanner.nextLine();
+        hovaten(fullName);
+        scanner.close();
+    }
+}
