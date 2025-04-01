@@ -1,0 +1,11 @@
+import java.util.Scanner
+public class main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Nhập nhiệt độ (°F): ");
+        double f = scanner.nextDouble();
+        double c = (f - 32) / 1.8;
+        System.out.println("Nhiệt độ tương ứng (°C): " + c);
+        scanner.close();
+    }
+}
