@@ -1,6 +1,6 @@
 package lab1;
 import java.util.Scanner;
-public class main {
+public bai06{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("canh a: ");
