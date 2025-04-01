@@ -7,8 +7,8 @@ public class main {
         int nam = scanner.nextInt();
         boolean namnhuan = (nam % 4 == 0 && nam % 100 != 0) || (nam % 400 == 0);
         if (namnhuan) {
-            System.out.println(nam + " là năm nhuận.");
+            System.out.println(nam + " la nam nhuan");
         } else {
-            System.out.println(nam + " không phải là năm nhuận.");
+            System.out.println(nam + " khong la nam nhuan");
         }
     }}
