@@ -3,12 +3,11 @@ import java.util.Scanner;
 public class bai02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Nhập chiều rộng: ");
+        System.out.print("Nhap cao ");
         double rong = scanner.nextDouble();
-        System.out.print("Nhập chiều cao: ");
+        System.out.print("Nhap rong: ");
         double cao = scanner.nextDouble();
         double dientich = rong * cao;
-        System.out.println("Diện tích hình chữ nhật: " + dientich);
-        scanner.close();
+        System.out.println("dien tich la " + dientich);
     }
 }
