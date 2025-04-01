@@ -1,4 +1,4 @@
-public class main {
+public class bai01 {
     public static void main(String[] args){
         String ten = "Mai Viet Hoang";
         String ngaysinh = "28/02/2005";
