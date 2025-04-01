@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class Main {
+    public static void tachdangay(String day) {
+        String[] tachngay = day.trim().split("/");
+        if (tachngay.length == 3) {
+            String ngay = tachngay[0];
+            String thang = tachngay[1];
+            String nam = tachngay[2];
+            System.out.println("Ngay: " + ngay);
+            System.out.println("Thang: " + thang);
+            System.out.println("nam: " + nam);
+        } else {
+            System.out.println("nhap lai");}}
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Nhap ngay: ");
+        String fullDate = scanner.nextLine();
+        tachdangay(fullDate);}}
