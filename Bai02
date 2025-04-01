@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Nhập chiều rộng: ");
+        double rong = scanner.nextDouble();
+        System.out.print("Nhập chiều cao: ");
+        double cao = scanner.nextDouble();
+        double dientich = rong * cao;
+        System.out.println("Diện tích hình chữ nhật: " + dientich);
+        scanner.close();
+    }
+}
