@@ -1,5 +1,6 @@
+package lab1;
 import java.util.Scanner;
-class Main {
+class bai15{
     public static void tachdangay(String day) {
         String[] tachngay = day.trim().split("/");
         if (tachngay.length == 3) {
