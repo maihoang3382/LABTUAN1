@@ -1,0 +1,17 @@
+import java.util.Scanner;
+ class main {
+    public static int daoso(int so) {
+        int dao = 0;
+        while (so != 0) {
+            int a = so % 10;
+            dao = dao * 10 + a;
+            so /= 10;
+        }
+        return dao;}
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Nhap so: ");
+        int so = scanner.nextInt();
+        System.out.println("" + daoso(so));
+        scanner.close();
+    }}
