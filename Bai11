@@ -1,5 +1,6 @@
+package lab1;
 import java.util.Scanner;
- class main {
+ class bai11 {
     public static int daoso(int so) {
         int dao = 0;
         while (so != 0) {
@@ -13,5 +14,4 @@ import java.util.Scanner;
         System.out.print("Nhap so: ");
         int so = scanner.nextInt();
         System.out.println("" + daoso(so));
-        scanner.close();
     }}
