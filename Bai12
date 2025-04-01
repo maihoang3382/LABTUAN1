@@ -1,5 +1,6 @@
+package lab1;
 import java.util.Scanner;
-class main {
+class Bai12 {
     public static boolean sodoixung(int so) {
         int goc = so;
         int doixung = 0;
@@ -17,6 +18,4 @@ class main {
             System.out.println(so + " la so doi xung");
         } else {
             System.out.println(so + " khong la so doi xung");
-        }
-
-        scanner.close();}}
+        }}}
