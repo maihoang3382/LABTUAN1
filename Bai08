@@ -1,6 +1,6 @@
 package lab1;
 import java.util.Scanner;
- class main {
+ class bai08 {
     public static int sodau(int so) {
         while (so >= 10) {
             so /= 10;}return so;}
