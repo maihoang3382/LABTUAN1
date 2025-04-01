@@ -1,3 +1,4 @@
+package lab1;
 import java.util.Scanner;
 public class main {
     public static void main(String[] args) {
@@ -9,5 +10,5 @@ public class main {
             System.out.println(nam + " là năm nhuận.");
         } else {
             System.out.println(nam + " không phải là năm nhuận.");
-        }scanner.close();
+        }
     }}
